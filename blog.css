@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 html {
@@ -28,44 +28,35 @@ body {
   border-radius: 10px;
 }
 
-img {
+.card-image {
   border-radius: 20px;
   padding: 20px;
-  object-position: ;
 }
 
-/* .info-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-} */
-
-h1 {
-  cursor: pointer;
-  cursor: ;
-  color: hsl(47, 88%, 63%);
-}
-
-h1:hover {
-  color: hsl(47, 88%, 63%);
-}
-
-h4 {
+.learning {
   background-color: hsl(47, 88%, 63%);
   text-align: center;
   border-radius: 5px;
   width: 80px;
 }
 
+.published {
+}
+
+.foundations {
+  cursor: pointer;
+}
+
+.foundations:hover {
+  color: hsl(47, 88%, 63%);
+}
+
 .description {
+  font-size: 16px;
   font-weight: 600;
   color: hsl(0, 0%, 50%);
 }
 .attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
+  display: flex;
+  align-items: center;
 }
