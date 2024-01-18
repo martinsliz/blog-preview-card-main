@@ -17,8 +17,7 @@ html {
   background-color: hsl(0, 0%, 100%);
   display: flex;
   flex-direction: column;
-  width: 380px;
-  /* height: 100vh; */
+  width: 400px;
 }
 
 .card-image {
@@ -44,8 +43,9 @@ html {
 }
 
 .published {
-  margin: 10px;
-  font-size: 14px;
+  margin: 15px 10px;
+  font-size: 12px;
+  font-weight: 100;
   padding-bottom: 3px;
 }
 
@@ -64,7 +64,7 @@ html {
 .description {
   margin: 10px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   color: hsl(0, 0%, 50%);
   padding-bottom: 5px;
 }
@@ -72,11 +72,12 @@ html {
 .author {
   display: flex;
   justify-self: flex-start;
-  margin: 10px 20px;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 .avatar {
-  max-width: 15%;
-  height: auto;
+  max-width: 32px;
+  height: 32px;
 }
 
 footer {
