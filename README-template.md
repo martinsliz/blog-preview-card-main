@@ -15,6 +15,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
     - [Goals](#goals)
     - [Useful resources](#useful-resources)
   - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -55,3 +56,7 @@ To get even better at manipulating flex box, grid, and other properties to help 
 - Github - [martinsliz](https://github.com/martinsliz)
 - LinkedIn - [in/lizmartinsli/](https://www.linkedin.com/in/lizmartinsli/)
 - Frontend Mentor - [@martinsliz](https://www.frontendmentor.io/profile/martinsliz)
+
+## Acknowledgments
+
+Myself, [Fischer](https://github.com/jfcode101/jfcode101), [Ricky](https://github.com/ironest), and [Javier](https://www.linkedin.com/in/javier-liz-0955ba24/) make up CITE - Code In the Evening, a new group of emerging developers who want to get together weekly to improve our skills by working through coding problems such as this one and building on those skills to create dynamic, portfolio-worthy projects.
