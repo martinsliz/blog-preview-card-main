@@ -69,12 +69,18 @@ html {
   padding-bottom: 5px;
 }
 
-span {
+.author {
   display: inline-block;
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
 .avatar {
   max-width: 32px;
   height: 32px;
+  margin-left: 10px;
+}
+
+.name {
   margin-left: 10px;
 }
 
