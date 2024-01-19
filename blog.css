@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   display: flex;
   justify-content: center;
@@ -44,25 +48,22 @@ body {
 
 .learning {
   background-color: hsl(47, 88%, 63%);
-  width: 60px;
-  height: 20px;
+  width: 74px;
+  height: 25px;
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 12px;
   text-align: center;
   margin: 2px;
   padding: 4px;
-  /* top, right, bottom, left */
 }
 
 .published {
-  /* margin: 15px 10px; */
   font-size: 12px;
   font-weight: 100;
   padding-bottom: 3px;
 }
 
 .foundations {
-  /* margin: 10px; */
   font-size: 20px;
   font-weight: 800;
   cursor: pointer;
@@ -74,7 +75,6 @@ body {
 }
 
 .description {
-  /* margin: 10px; */
   font-size: 16px;
   font-weight: 400;
   color: hsl(0, 0%, 50%);
@@ -82,18 +82,15 @@ body {
 }
 
 .author {
-  display: inline-block;
-  /* margin-bottom: 15px; */
+  display: inline-grid;
+  grid-template-columns: auto auto;
 }
 .avatar {
-  display: inline-block;
   max-width: 40px;
   height: 40px;
-  /* margin-left: 10px; */
 }
 
 h5 {
-  display: inline-block;
   margin-bottom: 20px;
 }
 
