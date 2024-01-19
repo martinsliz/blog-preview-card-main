@@ -3,19 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Figtree:wght@600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Figtree:wght@800&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="icon"
       type="image/png"
@@ -23,11 +10,16 @@
       href="./assets/images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="blog.css" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
     <title>Frontend Mentor | Blog preview card</title>
   </head>
   <body>
-    <main class="card-container">
+    <div class="card-container">
       <img
         class="card-image"
         src="assets/images/illustration-article.svg"
@@ -37,7 +29,6 @@
         <h4 class="learning">Learning</h4>
         <h6 class="published">Published 21 Dec 2023</h6>
         <h1 class="foundations">HTML & CSS foundations</h1>
-
         <p class="description">
           These languages are the backbone of every website, defining structure,
           content, and presentation.
@@ -49,9 +40,11 @@
             alt="author"
           />
         </div>
-        <div class="author name">Greg Hooper</div>
+        <div class="author name">
+          <h5>Greg Hooper</h5>
+        </div>
       </div>
-    </main>
+    </div>
     <footer>
       <div class="attribution">
         Challenge by
