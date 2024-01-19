@@ -69,15 +69,13 @@ html {
   padding-bottom: 5px;
 }
 
-.author {
-  display: flex;
-  justify-self: flex-start;
-  margin-top: 15px;
-  margin-left: 15px;
+span {
+  display: inline-block;
 }
 .avatar {
   max-width: 32px;
   height: 32px;
+  margin-left: 10px;
 }
 
 footer {
